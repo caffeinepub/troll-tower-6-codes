@@ -1,0 +1,23 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-after-the-user-answers-yes-to-both-questionnaire-questions-show-a-final-action-button-labeled-get-some-codes-english-text-when-the-user-clicks-this-button-display-three-buttons-with-the-exact-labels-sub2acerxducky-4500-money-funtrolltower6-3000-money-and-ilovett6-1200-money",
+      "featureTitle": "After the user answers \"Yes\" to both questionnaire questions, show a final action button labeled \"Get Some Codes\" (English text). When the user clicks this button, display three buttons with the exact labels: \"Sub2AcerXDucky = 4500 Money\", \"FunTrollTower6 = 3000 Money\", and \"ILoveTT6 = 1200 Money\".",
+      "files": [
+        "frontend/src/App.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-5"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

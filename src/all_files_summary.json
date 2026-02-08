@@ -1,0 +1,14 @@
+{
+  "backend/main.mo": "Empty Motoko actor with no methods or logic.",
+  "feature_evidence.json": "Metadata describing a feature requirement tied to App.tsx, defining questionnaire behavior and code buttons.",
+  "frontend-file-summaries.txt": "Prewritten summaries of key frontend files including styling, Tailwind config, and App.tsx behavior.",
+  "frontend/index.css": "Tailwind base theme variables and dark mode definitions with global background and text styling.",
+  "frontend/index.html": "HTML shell defining the root element and loading the React entry script.",
+  "frontend/src/App.tsx": "Main UI with questionnaire flow that reveals a final button and three code buttons when both answers are yes.",
+  "frontend/src/hooks/useActor.ts": "React hook that creates and manages an authenticated or anonymous backend actor and refreshes queries on identity change.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Authentication provider and hooks for managing Internet Identity login, stored identities, and status tracking.",
+  "frontend/src/index.css": "Alternate Tailwind variable theme with neon‑green dungeon aesthetic and utility classes.",
+  "frontend/src/main.tsx": "App bootstrap wiring React Query, Internet Identity provider, and global styles before rendering App.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending theme colors, fonts, shadows, and custom animations.",
+  "project_state.json": "Defines the project state for a website called Troll Tower 6 Codes, including features for a Get Codes button, a two‑question yes/no flow, conditional code reveal, and thematic styling. Also lists pending feature requests and metadata such as schema and version info."
+}

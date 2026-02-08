@@ -1,0 +1,25 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Reveal three reward code buttons after gated final action",
+  "requirements": [
+    {
+      "id": "REQ-5",
+      "summary": "Keep existing Yes/Yes gating, show a final action button labeled \"Get Some Codes\", and on click reveal exactly three code reward buttons with the specified labels.",
+      "acceptanceCriteria": [
+        "If the user has not answered \"Yes\" to both questions, the \"Get Some Codes\" button is not visible.",
+        "If the user has answered \"Yes\" to both questions, the \"Get Some Codes\" button is visible.",
+        "Clicking \"Get Some Codes\" reveals exactly three buttons.",
+        "The three revealed buttons’ visible text matches exactly: \"Sub2AcerXDucky = 4500 Money\", \"FunTrollTower6 = 3000 Money\", and \"ILoveTT6 = 1200 Money\".",
+        "The three code buttons are not shown before clicking \"Get Some Codes\"."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Update the questionnaire-gated final action: (1) change the gated button label to exactly \"Get Some Codes\" and wire an onClick that toggles local UI state to reveal the code buttons; (2) render the three code buttons only after that click, with visible text matching exactly: \"Sub2AcerXDucky = 4500 Money\", \"FunTrollTower6 = 3000 Money\", \"ILoveTT6 = 1200 Money\"; (3) preserve current gating so neither the final action nor the code buttons are accessible unless both answers are \"Yes\"; (4) ensure the code buttons are hidden on initial questionnaire view and reset/rehide if answers change away from both \"Yes\". Use the existing shadcn-ui Button component for the final action and code buttons. Verify the component's usage instructions before implementing."
+        }
+      ]
+    }
+  ]
+}

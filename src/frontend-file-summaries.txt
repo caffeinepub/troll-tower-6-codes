@@ -1,0 +1,5 @@
+{
+  "frontend/src/index.css": "Global styles with OKLCH color system defining a stone/dungeon-inspired neutral palette with neon green primary accent, plus custom animations for fade-in and scale-in effects.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending the theme with custom font families, glow shadows, and animation keyframes for smooth UI transitions.",
+  "frontend/src/App.tsx": "Main single-page application component that displays the \"Troll Tower 6 Codes\" landing page with a gated questionnaire flow, showing a \"Get Some Codes\" button when both questions are answered \"Yes\", which reveals three code reward buttons with specific money values when clicked."
+}

@@ -1,0 +1,86 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Build a website called \"Troll Tower 6 Codes\" featuring a \"Get Codes!\" button that opens a short yes/no questionnaire and reveals a \"Here Is Some Codes!\" button only if the user answers \"Yes\" to all questions; clicking it shows three code buttons: \"Sub2AcerXDucky = 4500 Money\", \"FunTrollTower6 = 3000 Money\", and \"ILoveTT6 = 1200 Money\".",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-single-page-website-titled-troll-tower-6-codes-with-a-prominent-primary-button-labeled-get-codes-on-the-main-screen",
+      "title": "Create a single-page website titled \"Troll Tower 6 Codes\" with a prominent primary button labeled \"Get Codes!\" on the main screen.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-when-the-user-clicks-get-codes-display-a-2-question-yes-no-questionnaire-in-this-order-1-do-you-subscribe-to-acerxducky-with-options-yes-and-no-2-do-you-play-troll-tower-6-with-options-yes-and-no",
+      "title": "When the user clicks \"Get Codes!\", display a 2-question yes/no questionnaire in this order: (1) \"Do you subscribe to AcerXDucky?\" with options \"Yes\" and \"No\"; (2) \"Do you play Troll Tower 6?\" with options \"Yes\" and \"No\".",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-gate-access-to-the-final-action-show-a-button-labeled-here-is-some-codes-only-after-the-user-has-answered-yes-to-both-questions-if-any-answer-is-no-the-here-is-some-codes-button-must-not-appear",
+      "title": "Gate access to the final action: show a button labeled \"Here Is Some Codes!\" only after the user has answered \"Yes\" to both questions; if any answer is \"No\", the \"Here Is Some Codes!\" button must not appear.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-coherent-playful-troll-tower-visual-theme-consistently-across-the-page-e-g-stone-dungeon-inspired-neutrals-with-a-neon-green-accent-including-typography-spacing-and-button-styling-avoid-using-a-blue-purple-primary-palette",
+      "title": "Apply a coherent, playful \"troll tower\" visual theme consistently across the page (e.g., stone/dungeon-inspired neutrals with a neon-green accent), including typography, spacing, and button styling; avoid using a blue/purple primary palette.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-after-the-user-answers-yes-to-both-questionnaire-questions-show-a-final-action-button-labeled-get-some-codes-english-text-when-the-user-clicks-this-button-display-three-buttons-with-the-exact-labels-sub2acerxducky-4500-money-funtrolltower6-3000-money-and-ilovett6-1200-money",
+      "title": "After the user answers \"Yes\" to both questionnaire questions, show a final action button labeled \"Get Some Codes\" (English text). When the user clicks this button, display three buttons with the exact labels: \"Sub2AcerXDucky = 4500 Money\", \"FunTrollTower6 = 3000 Money\", and \"ILoveTT6 = 1200 Money\".",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create website titled \"Troll Tower 6 Codes\"",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Add a \"Get Codes!\" button that starts the questions flow",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Implement 2-question yes/no questionnaire: \"Do u Subscibe To AcerXDucky?\" and \"Do You Play Troll Tower 6?\"",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Show \"Here Is Some Codes!\" button only when user answers Yes to all questions",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "After clicking the final \"Here Is Some Codes!\" / \"Get Some Codes\" action, display 3 buttons with code+reward: Sub2AcerXDucky=4500 Money, FunTrollTower6=3000 Money, ILoveTT6=1200 Money",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Troll Tower 6 Codes",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

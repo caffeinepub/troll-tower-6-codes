@@ -1,0 +1,41 @@
+{
+  "kind": "build_request",
+  "title": "Show three code reward buttons after clicking the final codes action",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-5",
+      "text": "After the user answers \"Yes\" to both questionnaire questions, show a final action button labeled \"Get Some Codes\" (English text). When the user clicks this button, display three buttons with the exact labels: \"Sub2AcerXDucky = 4500 Money\", \"FunTrollTower6 = 3000 Money\", and \"ILoveTT6 = 1200 Money\".",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "If you click on Get Some Codes 3 buttons will appear first one will be:   Sub2AcerXDucky = 4500 Money 2nd one will be FunTrollTower6 = 3000 Money and the last 3rd one will be ILoveTT6 = 1200 Money"
+        ]
+      },
+      "acceptanceCriteria": [
+        "If the user has not answered \"Yes\" to both questions, the \"Get Some Codes\" button is not visible.",
+        "If the user has answered \"Yes\" to both questions, the \"Get Some Codes\" button is visible.",
+        "Clicking \"Get Some Codes\" reveals exactly three buttons.",
+        "The three revealed buttons’ visible text matches exactly: \"Sub2AcerXDucky = 4500 Money\", \"FunTrollTower6 = 3000 Money\", and \"ILoveTT6 = 1200 Money\".",
+        "The three code buttons are not shown before clicking \"Get Some Codes\"."
+      ]
+    }
+  ],
+  "constraints": [
+    "Frontend files listed as immutable must not be edited (compose existing UI components instead).",
+    "Preserve the existing gating behavior: codes must remain inaccessible unless both questionnaire answers are \"Yes\".",
+    "Keep the app as a single-page flow within the existing page (no new routes required)."
+  ],
+  "nonGoals": [
+    "No backend changes or persistence of code usage/redemptions.",
+    "No additional questionnaire questions or alternative eligibility rules.",
+    "No third-party integrations or authentication changes."
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}
